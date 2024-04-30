@@ -1,0 +1,46 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>WinUI3Template</Name>
+    <Description>WinUI3のテンプレート</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>WinUI3Template</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="WinUI3Template.csproj" File="WinUI3Template.csproj" ReplaceParameters="true">
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <Folder Name="PublishProfiles" TargetFolderName="PublishProfiles">
+          <ProjectItem ReplaceParameters="false" TargetFileName="win10-x64.pubxml">win10-x64.pubxml</ProjectItem>
+        </Folder>
+      </Folder>
+      <Folder Name="View" TargetFolderName="View">
+        <ProjectItem ReplaceParameters="true" TargetFileName="MainPage.xaml">MainPage.xaml</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="MainPage.xaml">vstg0001.xaml</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="MainPage.xaml">vstg0002.xaml</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="MainPage.xaml.cs">MainPage.xaml.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="SubPage.xaml">SubPage.xaml</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="SubPage.xaml">vstg0003.xaml</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="SubPage.xaml">vstg0004.xaml</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="SubPage.xaml.cs">SubPage.xaml.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="false" TargetFileName="app.manifest">app.manifest</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.xaml">App.xaml</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.xaml">vstg0005.xaml</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.xaml">vstg0006.xaml</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.xaml.cs">App.xaml.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MainWindow.xaml">MainWindow.xaml</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MainWindow.xaml">vstg0007.xaml</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MainWindow.xaml">vstg0008.xaml</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MainWindow.xaml">vstg0009.xaml</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MainWindow.xaml.cs">MainWindow.xaml.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

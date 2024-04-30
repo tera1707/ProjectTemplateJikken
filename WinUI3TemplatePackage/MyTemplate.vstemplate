@@ -1,0 +1,31 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>WinUI3TemplatePackage</Name>
+    <Description>WinUI3パッケージPJのテンプレート</Description>
+    <ProjectType>MSIX</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>WinUI3TemplatePackage</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="WinUI3TemplatePackage.wapproj" File="WinUI3TemplatePackage.wapproj" ReplaceParameters="true">
+      <Folder Name="Images" TargetFolderName="Images">
+        <ProjectItem ReplaceParameters="false" TargetFileName="LockScreenLogo.scale-200.png">LockScreenLogo.scale-200.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="SplashScreen.scale-200.png">SplashScreen.scale-200.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Square150x150Logo.scale-200.png">Square150x150Logo.scale-200.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Square44x44Logo.scale-200.png">Square44x44Logo.scale-200.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Square44x44Logo.targetsize-24_altform-unplated.png">Square44x44Logo.targetsize-24_altform-unplated.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="StoreLogo.png">StoreLogo.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Wide310x150Logo.scale-200.png">Wide310x150Logo.scale-200.png</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Package.appxmanifest">Package.appxmanifest</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
